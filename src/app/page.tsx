@@ -9,8 +9,6 @@ export default function Home() {
     <div className="min-h-screen bg-blue-300">
       <Land></Land>
       <Header></Header>
-      
-
     </div>
     </>
   );
