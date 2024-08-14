@@ -11,10 +11,10 @@ function Footer() {
 							<span className="text-blue-600">Synergia</span>
 						</p>
 						<div className="flex gap-6 pb-5">
-							{/* <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
+							<FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
 							<FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
 							<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-							<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" /> */}
+							<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
 						</div>
 					</ul>
 				</div>

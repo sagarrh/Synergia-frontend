@@ -27,6 +27,7 @@ import Link from "next/link"
 import { Card } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { JSX, SVGProps } from "react"
+import { Video } from "lucide-react"
 
 export function Land() {
   return (
@@ -54,28 +55,26 @@ export function Land() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="/sign-up"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
                     Get Started
                   </Link>
                   <Link
-                    href="#"
+                    href="/about-us"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
                     Learn More
                   </Link>
                 </div>
+                
               </div>
-              <img
-                src="/placeholder.svg"
-                width="550"
-                height="550"
-                alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-              />
+              <div>
+                <video autoPlay src="images\hero-video.mp4"></video>
+              </div>
+              
             </div>
           </div>
         </section>

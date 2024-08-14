@@ -4,7 +4,7 @@ import { LoginComponent } from '@/components/component/LoginComponent';
 
 function login() {
   return (
-    <div className='pt-28' >
+    <div className='p-28' >
       <LoginComponent />
     </div>
   )
